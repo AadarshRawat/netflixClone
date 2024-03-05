@@ -11,7 +11,11 @@ const Body = ()=>{
             element:<Login />
         },
         {
-            path:"/Browse",
+            path:"/login",
+            element:<Login />
+        },
+        {
+            path:"/browse",
             element:<Browse />
         }
     ])

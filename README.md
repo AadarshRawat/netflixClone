@@ -98,5 +98,27 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 -Create React App
 - Configured TailwindCSS
 - Header
+- Routing
 - Login Form
 - Sign Up form
+- Form Validation
+- useRef Hook
+- Create SignUp
+- Implement SignIn
+- Created REdux Store with userSlice
+- Implemented SignOut
+
+
+
+
+
+
+<!-- Browse -->
+
+MainContiner
+    - videContainer
+    - VideoTitle
+
+Secondary Container
+    - MovieList *n
+        -cards*n
