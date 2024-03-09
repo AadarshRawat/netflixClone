@@ -107,6 +107,9 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 - Implement SignIn
 - Created REdux Store with userSlice
 - Implemented SignOut
+- make browse
+- make components of video title and video background
+
 
 
 
