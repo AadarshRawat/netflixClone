@@ -109,6 +109,8 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 - Implemented SignOut
 - make browse
 - make components of video title and video background
+- make cards and list for movies
+- se gpt search button
 
 
 
