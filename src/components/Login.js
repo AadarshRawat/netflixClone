@@ -35,7 +35,6 @@ const Login = () => {
         setErrorMessage(message);
         return;
       }
-      console.log(email.current.value, password.current.value);
       const signInData = signInUser({
         email: email.current.value,
         password: password.current.value,
@@ -48,7 +47,6 @@ const Login = () => {
         dispatch(addUser({ id: id, email: email, username: username }));
       });
     } else {
-      console.log("username--------->", username.current.value);
       const message = checkValidData(
         email.current.value,
         password.current.value,
@@ -58,7 +56,6 @@ const Login = () => {
         setErrorMessage(message);
         return;
       }
-      console.log(email.current.value, password.current.value);
       const signInData = signUpUser({
         email: email.current.value,
         password: password.current.value,

@@ -11,7 +11,6 @@ const useUpcommingMovies =()=>{
 
         const data = await fetch('https://api.themoviedb.org/3/movie/upcoming?language=en-US&page=1',API_OPTIONS)
         const jsondata= await data.json()
-        console.log('upcommingMovies-->',jsondata.results)
         moviedispatch(addupCommingMovies(jsondata.results))
     }
 

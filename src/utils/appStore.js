@@ -1,10 +1,11 @@
 import {configureStore,combineReducers} from "@reduxjs/toolkit";
 import userReducer from "./userSlice";
 import moviesReducer from "./moviesSlice"
+import gptReducer from "./gptSlice"
 import storage from 'redux-persist/lib/storage';
 import { persistReducer, persistStore } from 'redux-persist';
 import autoMergeLevel2 from 'redux-persist/es/stateReconciler/autoMergeLevel2';
-
+import configreducer from './configSlice'
 
 
 const persistConfig = {
@@ -17,7 +18,9 @@ const persistConfig = {
 
 const rootReducer = combineReducers({
 user: userReducer,
-movies: moviesReducer
+movies: moviesReducer,
+gpt:gptReducer,
+config:configreducer
 
 });
 

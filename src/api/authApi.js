@@ -27,7 +27,6 @@ const signInUser = async ({email,password}) => {
 
 
 const signUpUser = async ({email,password,username})=>{
-    console.log(email,password,username)
     try{
         const response = await fetch('http://localhost:8000/signup/', {
             method: 'POST',
